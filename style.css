@@ -7,9 +7,7 @@
 a{
     text-decoration: none;
 }
-*{
-    /* overflow-x: hidden; */
-}
+
 body{    
     margin: 0;
     padding: 0;
@@ -34,6 +32,7 @@ body{
     position: fixed;
     top: 0;
     background-color: black;
+
 }
 .header-left{
     margin-left: 20px;
@@ -274,7 +273,7 @@ body{
 /* body-right-header */
 
 .yt-body-right-header{
-    width: 100vw;
+    width: 83%;
     height: 40px;
     display: flex;
     align-items: center;
@@ -282,12 +281,12 @@ body{
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    position: fixed;
+    position: absolute;
+    right: 0;
     background-color : #000;
 }
 
 .right-header-content{
-    width: fit-content;
     height: 30px;
     width:fit-content;
     display: flex;
@@ -320,6 +319,7 @@ body{
     margin-top: 65px;
     overflow-y: scroll;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 .video-box{
     height: 300px;
