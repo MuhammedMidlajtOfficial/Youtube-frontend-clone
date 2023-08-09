@@ -8,6 +8,7 @@ a{
     text-decoration: none;
 }
 ::-webkit-scrollbar{
+    width: 0;
     background: none;
 }
 body{    
@@ -15,6 +16,7 @@ body{
     padding: 0;
     background-color: black;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 .container{
     display: flex;
@@ -34,7 +36,7 @@ body{
     position: fixed;
     top: 0;
     background-color: black;
-
+    z-index: 3;
 }
 .header-left{
     margin-left: 20px;
@@ -283,9 +285,10 @@ body{
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     background-color : #000;
+    position: fixed;
 }
 
 .right-header-content{
