@@ -8,7 +8,7 @@ a{
     text-decoration: none;
 }
 ::-webkit-scrollbar{
-    
+    background: none;
 }
 body{    
     margin: 0;
