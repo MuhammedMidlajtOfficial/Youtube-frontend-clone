@@ -169,7 +169,7 @@ body{
 }
 /* body-left */
 .yt-body-left{
-    max-width: 16%;
+    width: 16%;
     height: calc(100vh - 70px);
     padding: 12px;
     overflow-y: scroll;
